@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   height: 100vh;
 }
 
@@ -130,7 +131,11 @@
   display: none;
 }
 
-.hljs-addition, .hljs-attribute, .hljs-meta .hljs-string, .hljs-regexp, .hljs-string {
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta .hljs-string,
+.hljs-regexp,
+.hljs-string {
   color: #c379ba;
   font-weight: 600;
 }
